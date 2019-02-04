@@ -3,7 +3,7 @@
 //recogemos las convocatorias
     	$args = array(
 			'post_type' => 'convocatoria', //sede post_type
-			'posts_per_page' => -1, //devuelve todos los post
+			'posts_per_page' => 4, //devuelve todos los post
 			'orderby'   => 'meta_value',
 			'meta_key'  => 'fecha',
 			'order' => 'ASC'
