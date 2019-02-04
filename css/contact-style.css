@@ -1,0 +1,39 @@
+
+
+
+.data-container{
+	max-width: 700px;
+}
+.data-container i{
+
+	color: #666666;
+}
+.contact-data-rss{
+	max-width: 350px;
+	margin-left: auto;
+	margin-right: auto;
+}
+.form-area{
+    padding: 10px 40px 60px;
+    max-width: 750px;
+    margin: 10px auto 60px;
+}
+.form-area input, .form-area text-area{
+    border-radius: 0px;
+}    
+.form-area input{
+    height: 3.5em;
+    width: 100%;
+}
+.form-area textarea{
+    width: 100%;
+}
+
+/* .form-area textarea::placeholder {
+  margin-left: 1em;
+} */
+
+.form-area button{
+    border-radius: 0px;
+    font-size: 1.2em;
+}
